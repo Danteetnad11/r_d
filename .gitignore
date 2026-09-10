@@ -1,0 +1,22 @@
+# Vivado generated files
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# Vivado logs and temporary files
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg.autosave
+*.backup.jou
+*.backup.log
+
+# Keep project definitions, HDL sources, and XDC constraints
+
+# Track this repository ignore configuration
+!.gitignore
