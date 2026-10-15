@@ -1,0 +1,1 @@
+set(USER_LINKER_SCRIPT "${CMAKE_CURRENT_LIST_DIR}/lscript.ld")
