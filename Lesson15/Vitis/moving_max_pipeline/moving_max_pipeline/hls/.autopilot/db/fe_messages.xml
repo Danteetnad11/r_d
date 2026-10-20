@@ -1,0 +1,20 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=moving_max" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="moving_max.c:32:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="moving_max.c:35:9" msg_body="Loop 'SHIFT_WINDOW' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="SHIFT_WINDOW"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="moving_max.c:45:9" msg_body="Loop 'FIND_MAXIMUM' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="FIND_MAXIMUM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="moving_max.c:19:0" msg_body="Unrolling loop 'SHIFT_WINDOW' (moving_max.c:35:9) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="moving_max.c:35:9" LoopName="SHIFT_WINDOW"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="moving_max.c:19:0" msg_body="Unrolling loop 'FIND_MAXIMUM' (moving_max.c:45:9) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="moving_max.c:45:9" LoopName="FIND_MAXIMUM"/>
+    </msg>
+</xilinx:hls_fe_msgs>

@@ -1,0 +1,26 @@
+{
+    "0": {
+        "name": "moving_max",
+        "file": "moving_max.c",
+        "fileloc": "18",
+        "instructions": "67",
+        "total_instructions": "67",
+        "calls": "",
+        "basicblocks": "13",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "4",
+            "T": "1"
+        },
+        "stores": {
+            "L": "7",
+            "T": "1"
+        },
+        "loops": {
+            "L": "2",
+            "N": "2"
+        }
+    }
+}

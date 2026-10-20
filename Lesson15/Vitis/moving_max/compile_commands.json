@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "V:\\Lesson15\\Vitis\\moving_max",
+    "arguments": [
+      "C:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2026.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=moving_max",
+      "-c",
+      "V:\\Lesson15\\Vitis\\moving_max\\moving_max.c"
+    ],
+    "file": "V:\\Lesson15\\Vitis\\moving_max\\moving_max.c"
+  },
+  {
+    "directory": "V:\\Lesson15\\Vitis\\moving_max",
+    "arguments": [
+      "C:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2026.1\\Vitis\\include",
+      "-c",
+      "V:\\Lesson15\\Vitis\\moving_max\\tb_moving_max.c"
+    ],
+    "file": "V:\\Lesson15\\Vitis\\moving_max\\tb_moving_max.c"
+  }
+]

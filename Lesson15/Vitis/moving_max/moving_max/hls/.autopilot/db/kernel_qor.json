@@ -1,0 +1,76 @@
+{
+    "name": "moving_max",
+    "type": "function",
+    "pipelined": "yes",
+    "dataflowed": "no",
+    "original_ti": 2059,
+    "original_tl": 2058,
+    "calculated_ti": -1,
+    "calculated_tl": -1,
+    "assume_ti": -1,
+    "assume_tl": -1,
+    "CIs": [],
+    "loops": [
+        {
+            "name": "INITIALIZE_WINDOW",
+            "type": "loop",
+            "trip_count": 8,
+            "pipelined": "no",
+            "dataflowed": "no",
+            "original_ti": 8,
+            "original_tl": 8,
+            "calculated_ti": -1,
+            "calculated_tl": -1,
+            "assume_ti": -1,
+            "assume_tl": -1,
+            "CIs": [],
+            "loops": []
+        },
+        {
+            "name": "PROCESS_SAMPLES",
+            "type": "loop",
+            "trip_count": 64,
+            "pipelined": "no",
+            "dataflowed": "no",
+            "original_ti": 2048,
+            "original_tl": 2048,
+            "calculated_ti": -1,
+            "calculated_tl": -1,
+            "assume_ti": -1,
+            "assume_tl": -1,
+            "CIs": [],
+            "loops": [
+                {
+                    "name": "SHIFT_WINDOW",
+                    "type": "loop",
+                    "trip_count": 7,
+                    "pipelined": "no",
+                    "dataflowed": "no",
+                    "original_ti": 14,
+                    "original_tl": 14,
+                    "calculated_ti": -1,
+                    "calculated_tl": -1,
+                    "assume_ti": -1,
+                    "assume_tl": -1,
+                    "CIs": [],
+                    "loops": []
+                },
+                {
+                    "name": "FIND_MAXIMUM",
+                    "type": "loop",
+                    "trip_count": 7,
+                    "pipelined": "no",
+                    "dataflowed": "no",
+                    "original_ti": 14,
+                    "original_tl": 14,
+                    "calculated_ti": -1,
+                    "calculated_tl": -1,
+                    "assume_ti": -1,
+                    "assume_tl": -1,
+                    "CIs": [],
+                    "loops": []
+                }
+            ]
+        }
+    ]
+}

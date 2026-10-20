@@ -1,0 +1,3 @@
+relativeroot=V:/Lesson15/Vitis/moving_max_pipeline
+original_argv=--mode hls --package --config V:\Lesson15\Vitis\moving_max_pipeline\hls_config.cfg --work_dir moving_max_pipeline 
+

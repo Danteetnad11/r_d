@@ -1,0 +1,4 @@
+,INITIALIZE_WINDOW,seq_loop_status1.csv
+,SHIFT_WINDOW,seq_loop_status2.csv
+,FIND_MAXIMUM,seq_loop_status3.csv
+,PROCESS_SAMPLES,seq_loop_status4.csv
