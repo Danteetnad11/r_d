@@ -1,0 +1,31 @@
+# Vivado build products and temporary IP editing projects
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.tmp/
+tmp_edit_project.xpr
+
+# Vitis build products, generated platform data, and local IDE state
+**/build/
+**/export/
+**/logs/
+**/_ide/
+**/.rigel_lopper/
+**/compile_commands.json
+/Vitis/sound_level_platform/hw/sdt/
+/Vitis/sound_level_platform/microblaze_0/
+/Vitis/sound_level_platform/resources/
+
+# Logs, wave databases, and editor backups
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg.autosave
+*.backup.jou
+*.backup.log
+*.lock

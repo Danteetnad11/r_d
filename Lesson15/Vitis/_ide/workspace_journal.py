@@ -10,3 +10,7 @@ comp.run(operation="PACKAGE")
 comp = client.get_component(name="moving_max")
 comp.run(operation="PACKAGE")
 
+vitis.dispose()
+
+vitis.dispose()
+
